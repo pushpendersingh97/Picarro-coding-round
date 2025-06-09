@@ -7,10 +7,12 @@ const headerColumns = () => {
     {
       id: 'lat',
       label: 'Latitude',
+      sortable: true,
     },
     {
       id: 'long',
       label: 'Longitude',
+      sortable: true,
     },
   ]
 }

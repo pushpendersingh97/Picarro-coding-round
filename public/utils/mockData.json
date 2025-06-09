@@ -4,13 +4,13 @@
             "id": 1,
             "gasConcentration": 1000.00,
             "lat": 98.9,
-            "long": 40.0
+            "long": 47.0
         },
         {
             "id": 2,
             "gasConcentration": 1000.00,
-            "lat": 98.9,
-            "long": 40.0
+            "lat": 95.9,
+            "long": 50
         }
     ]
 }
