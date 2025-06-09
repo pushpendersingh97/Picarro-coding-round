@@ -8,9 +8,58 @@
         },
         {
             "id": 2,
-            "gasConcentration": 1000.00,
+            "gasConcentration": 900.00,
             "lat": 95.9,
             "long": 50
+        },
+        {
+            "id": 3,
+            "gasConcentration": 650.00,
+            "lat": 96.9,
+            "long": 49.0
+        },
+        {
+            "id": 4,
+            "gasConcentration": 302.00,
+            "lat": 97.9,
+            "long": 48.0
+        },
+        {
+            "id": 5,
+            "gasConcentration": 78.00,
+            "lat": 98.0,
+            "long": 47.5
+        },
+        {
+            "id": 6,
+            "gasConcentration": 1000.00,
+            "lat": 98.5,
+            "long": 47.2
+        },
+        {
+            "id": 7,
+            "gasConcentration": 1000.00,
+            "lat": 99.0,
+            "long": 47.1
+        },
+        {
+            "id": 8,
+            "gasConcentration": 1000.00,
+            "lat": 99.5,
+            "long": 46.9
+        },
+        {
+            "id": 9,
+            "gasConcentration": 1000.00,
+            "lat": 100.0,
+            "long": 46.8
+        },
+        {
+            "id": 10,
+            "gasConcentration": 1000.00,
+            "lat": 100.5,
+            "long": 46.7
         }
+        
     ]
 }

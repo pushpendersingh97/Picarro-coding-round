@@ -54,9 +54,7 @@ const Table = ({ rows, columns }) => {
                       {isSorted && sortConfig.direction === "desc" && (
                         <ArrowUpNarrowWide />
                       )}
-                      {!isSorted && (
-                        <ArrowUpNarrowWide className="invisible" />
-                      )}
+                      {!isSorted && <ArrowUpNarrowWide className="invisible" />}
                     </span>
                   )}
                 </div>
@@ -67,12 +65,12 @@ const Table = ({ rows, columns }) => {
       </thead>
       <tbody>
         {sortedRows.map((row, rowIndex) => (
-          <tr key={rowIndex} className="hover:bg-gray-100">
+          <tr
+            key={rowIndex}
+            className="odd:bg-white even:bg-gray-50 hover:bg-gray-100"
+          >
             {columns.map((column, colIndex) => (
-              <td
-                key={colIndex}
-                className="px-4 py-2 border-b border-gray-200"
-              >
+              <td key={colIndex} className="px-4 py-2 border-b border-gray-200">
                 {row[column.id]}
               </td>
             ))}
